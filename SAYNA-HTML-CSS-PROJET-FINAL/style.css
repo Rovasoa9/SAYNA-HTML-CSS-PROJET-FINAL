@@ -1,0 +1,79 @@
+.row{
+    margin:0%;
+    width:100%;
+}
+/*****************************header******************************************/
+header{
+    width:100%;
+}
+.navbar{
+    background-color: rgb(211,86,73)
+}
+
+i{
+    color:white;
+}
+li a{
+    text-decoration:none;
+    color:white;
+}
+#section-index{
+    background-image: url(asset/Images/Capture1.PNG);
+    background-repeat: no-repeat;
+    width:100%;
+    padding:5%;
+}
+h4 ,h2{
+text-align:center;
+}
+p{
+    font-size:80%;
+}
+/*************************footer **************************************/
+footer{
+    background-color: rgb(31, 31,31);
+    width:100%;
+    padding:5% 0%;
+}
+footer h3{
+    text-align:center;
+}
+.justify {
+    text-align:center;
+}
+#footer{
+    text-align:center;
+    margin-left:5%;
+    margin-top:2%;
+}
+button{
+    background-color:rgb(31, 31,31);
+}
+#footer a{
+    text-decoration:none;
+    color:white;
+    padding-left: 5%;
+}
+#footer button{
+    width:10%;
+}
+#reseau i{
+    padding:1%;
+}
+/***************************tout les hover********************/
+#lien:hover{
+    text-decoration:underline;
+    color:rgb(211,86,73);
+}
+#reseau i:hover{
+    color:#509bd7;
+}
+#bouton:hover{
+    background-color:rgb(63,72,204);
+}
+#footer button:hover{
+    background-color:#98a5a5;
+}
+li a:hover{
+    background-color:#98a5a5;
+}

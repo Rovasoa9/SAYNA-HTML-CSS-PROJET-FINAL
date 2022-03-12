@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e441068f78.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="asset/bootstrap-5.1.3-dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>search</title>
+</head>
+<body>
+    
+    <header class="row col-lg-12" >
+            <div class="navbar col-lg-12">
+                <div class="row col-lg-6">
+                   <div class="col-lg-2">
+                       <img src="asset/Images/group-2.svg" style ="width:100%;"alt="">
+                    </div>
+                   <div class="col-lg-3">
+                       <a href="index.html" style="text-decoration: none;"><h3 style="color:white;text-shadow: 4px 4px 2px rgb(0,162,232);">[Events]</h3> </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 offset-2">
+                    <ul class="nav">
+                        <li class="nav-item">
+                          <a class="nav-link" href="search.html"style="color:white;"><i class="fas fa-search"></i> Search</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="about.html" style="color:white;"><i class="fa-solid fa-user"></i> About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"style="color:white;"><i class="fa-solid fa-rss"></i> Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"style="color:white;"><i class="fa-solid fa-align-justify"></i> More</a>
+                          </li>
+                      </ul>
+                </div>
+            </div>
+    </header>
+    <section id="section-search" style="background-color:white;">
+        <div class="row col-lg-12"style="background-color:#eee;margin-top:5%;padding:3% 0%;">
+            <h2 style="color:white;"><strong>Filter by location,host,sudject,date;daytime</strong></h2>
+            <div class="row col-lg-12"style="padding:5% 10%;">
+                <form  style="display:flex;">
+                    <div>
+                        <label for="">Location</label>
+                        <input type="text" class="form-control" style="width:80%;">
+                    </div>
+                    <div>
+                        <label for="">Host</label>
+                        <input type="text" class="form-control" style="width:80%;">
+                    </div>
+                    <div>
+                        <label for="">Subject</label>
+                        <input type="text" class="form-control" style="width:80%;">
+                    </div>
+                    <div>
+                        <label for="">Initial date</label>
+                        <input type="text" class="form-control" style="width:90%;" value="06/18/2020 " ><span class=" form-control-feedback"></span>
+                    </div>
+                    <div class=" has-feedback">
+                        <label for="">Final Date</label>
+                        <input type="text" class="form-control" style="width:90%;" value="06/18/2020 "><span class=" form-control-feedback"></span>
+                    </div>
+                    <div>
+                        <label for="">Daytime</label>
+                        <input type="text" class="form-control" style="width:70%;" value="choose... "><span class=" form-control-feedback"></span>
+                    </div>
+                    <button type="button" class="btn btn-info" style="width:20%;padding:0%;">Search</button>
+                    <button class="btn btn-warning" type="submit" style="width:20%;margin-left:1%;"><span class="fa-solid fa-file-signature"> </span> Clear filter</button>
+                </form>
+            </div>    
+        </div>
+       <h3 style="color:#eee;text-align:center;padding:4% 2% 2% 2%;"><strong>Search Result found 7 [Events] Nearby</strong></h3>
+        <div class="row text-align"style="padding:5%;">
+                <div class="col-lg-4">
+                    <figure>
+                        <figcaption style="color:#eee;text-align:center;"><strong>go to [gothering] example</strong></figcaption>
+                       <a href="about.html"> <img src="asset/Images/group-2.svg" style="background-color: rgb(211,86,73);width:100%;" alt=""></a>
+                    </figure>
+                </div>
+                <div class="col-lg-4">
+                    <figure>
+                        <figcaption style="color:#eee;text-align:center;"><strong>go to [gothering] example</strong></figcaption>
+                        <a href="about.html"><img src="asset/Images/group-2.svg" style="background-color: rgb(211,86,73);width:100%;;" alt=""></a>
+                    </figure>
+
+                </div>
+                <div class="col-lg-4">
+                    <figure>
+                        <figcaption style="color:#eee;text-align:center;"><strong>go to [gothering] example</strong></figcaption>
+                        <a href="about.html"><img src="asset/Images/group-2.svg" style="background-color: rgb(211,86,73);width:100%;" alt=""></a>
+                    </figure>
+
+                </div>
+
+
+        </div>
+    </section>
+    
+    <footer class="row col-lg-12">
+        <div class="btn  btn-justified" id="footer" style="margin-left:10%;width:80%;">
+            <button type="button "style="border-left:none;border-right:none;border-radius:0%;padding:2%;"><a href="index.html">HOME</a></button>
+            <button type="button "style="border-left:none;border-right:none;border-radius:0%;padding:2%;"><a href="search.html" >SEARCH</a></button>
+            <button type="button "style="border-left:none;border-right:none;border-radius:0%;padding:2%;width:11%"><a href="about.html">ABOUTUS</a></button>
+            <button type="button "style="border-left:none;border-right:none;border-radius:0%;padding:2%;width:11%"><a href="index.html" >ADVERTISE</a></button>
+            <button type="button "style="border-radius:50%;padding:4%;"><a href="index.html" style="padding:3%;"><i class="fa-solid fa-location-dot"></i></a></button>
+            <button type="button "style="border-left:none;border-right:none;border-radius:0%;padding:2%;width:10%"><a href="index.html" >FACEBOOK</a></button>
+            <button type="button "style="border-left:none;border-right:none;border-radius:0%;padding:2%;"><a href="index.html" >TWITTER</a></button>
+            <button type="button "style="border-left:none;border-right:none;border-radius:0%;padding:2%;width:12%"><a href="index.html">INSTAGRAM</a></button>
+            <button type="button "style="border-left:none;border-right:none;border-radius:0%;padding:2%;"><a href="index.html" >BLOG</a></button>
+        </div>
+            <div class="row" style="padding-top:5%;">
+                <div class="col-sm-3 offset-1">
+                    <h3>Subscrib</h3>
+                    <div class="input-group">
+                    <input type="text" style="text-align:center;background-color:rgb(31, 31,31);color:rgb(121,121,121);"value="Insert your e-mail here">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button" style="background-color:rgb(121,121,121);color:white;">Send</button>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <h3>Contact</h3>
+                    <p style="color:white;font-size:12px;text-align:center;">Have a question or sugestion?<br>
+                    <a href="#" style="font-size:12px;margin-top:10%;text-decoration: none;color:#d35649;"><span id="lien">Contact@events.com</span> </a></p>
+                </div>
+                <div class="col-sm-5">
+                    <h3>About</h3>
+                    <p style="color:white;font-size:12px;text-align:center;">[Event] is an online plateform that waks to improve and increase social life <br>
+                    connections,wen this nightmare that we are curently living in is over <span id="lien"><a href="index.html"style="text-decoration: none;color:#d35649;">learn more.</a></span></p>
+                </div>
+
+            </div>
+            
+    </footer>
+    <div class="row col-lg-12" style="background-color:rgb(121,121,121);padding:2% 0%;">
+        <div class="col-md-3"id="reseau">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-intagram"></i></a>
+            <a href=""><i class="fa-brands fa-tumblr"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <div class="col-md-4 offset-5"><p style="float:right;">©2020 [Events].Inc.All rights reserved</p></div>
+
+
+    </div>
+
+    
+
+           
+    
+</body>
+</html>
